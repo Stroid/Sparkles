@@ -1,6 +1,6 @@
 class Sparkle {
   PVector pos, vel, acc;
-  float size, lerp;
+  float size, lerp, b;
   color c1, c2;
 
   boolean dead;
@@ -11,6 +11,7 @@ class Sparkle {
 
 
     lerp = 0;
+    b = 255;
     if (random(1) > .75) {
       this.size = random(2, 5);
     } else {

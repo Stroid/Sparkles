@@ -1,3 +1,5 @@
+//Color
+
 ArrayList<Sparkle> Sparkles;
 
 PVector gravity;
